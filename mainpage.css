@@ -1,0 +1,50 @@
+body{
+	background-color: #727B68;
+}
+
+.title{
+	font-family: monospace;
+	
+}
+
+
+.tile_div{
+	position: absolute;
+	top: 80%;
+	left: 31%;
+
+}
+.tile_div a{
+
+
+	padding: 20px 20px;
+	margin-right: 25px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	border: solid;
+	border-color: black;
+	color: black;
+	font-family: monospace;
+	background-color: gray;
+}
+
+.title_div a.last{
+	margin-right: 0;
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+.maincenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
