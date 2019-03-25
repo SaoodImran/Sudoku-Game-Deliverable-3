@@ -1,0 +1,51 @@
+.main {
+	background-color:#727B68;
+	font-family: monospace;
+}
+
+.button {
+
+	background-color: #727B68;
+	border: solid;
+	border-width: 6px;
+	font-family: monospace;
+	font-size: 50px;
+	color: black;
+	padding: 15px 72px;
+	text-align: center;
+  	display: inline-block;
+}
+
+.mainbutton {
+	text-align: center;
+}
+
+.button:hover {
+	background-color: grey;
+}
+
+.selector {
+	background-color: #727B68;
+	border: solid;
+	border-width: 4px;
+	font-family: monospace;
+	font-size: 20px;
+	color: black;
+	padding: 15px 72px;
+	text-align: center;
+  	display: inline-block;
+}
+
+
+.selector:hover {
+	background-color: grey;
+}
+
+.table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+.headings {
+	font-size: 20px;
+}
