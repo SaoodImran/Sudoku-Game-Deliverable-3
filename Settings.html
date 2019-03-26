@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html class="main">
-	<link rel="stylesheet" href="MainPageCSS.css">
+<html class="main" id="main">
+	<link rel="stylesheet" href="MainPageCSS.css" id="stylelink">
+	<script type="text/javascript" src="StylingScript.js"></script>
 <head>
 	<title>Sudoku Battles Settings</title>
 	<h1>Settings Page</h1>
 </head>
-<body>
+<body onload="updateValue(); colourSchemeChecker()">
 	<br><br><br><br><br>
 	
 	<div class="mainbutton">
 		<h1>Colour Scheme</h1>
-		<select name="Colour Scheme" class="selector">
+		<select name="Colour Scheme" class="selector" id="colourScheme" onchange="updateColourScheme()">
 			<option>Dark</option>
 			<option>Light</option>
 		</select> <br><br>
 		<h1>Difficulty</h1>
-		<select name="Difficulty" class="selector">
+		<select name="Difficulty" class="selector" id="diff">
 			<option>Easy</option>
 			<option>Medium</option>
 			<option>Hard</option>
 		</select> <br><br>
 		<h1>Race Time</h1>
-		<select name="Race Time" class="selector">
+		<select name="Race Time" class="selector" id="raceTime">
 			<option>Fast (5:00)</option>
 			<option>Medium (30:00)</option>
 			<option>Slow (1:00:00)</option>
