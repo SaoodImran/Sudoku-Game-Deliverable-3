@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html class="main">
-	<link rel="stylesheet" href="MainPageCSS.css">
+<html class="main" id="main">
+	<link rel="stylesheet" href="MainPageCSS.css" id="stylelink">
+	<script type="text/javascript" src="StylingScript.js"></script>
 <head>
 	<title>Sudoku Battles Homepage</title>
 	<h1>Main Window</h1>
 </head>
-<body>
+<body onload="colourSchemeChecker()">
 	<br><br><br><br><br>
 	
 	<div class="mainbutton">
-		<button class="button">Sudoku (Single Player)</button> <br><br>
+		<a href="Gameboard.html"><button class="button">Sudoku (Single Player)</button> <br><br>
 		<button class="button">Race (Timed Single Player)</button> <br><br>
 		<a href="Leaderboards.html"><button class="button">Leaderboards</button></a> <br><br>
 		<a href="Settings.html"><button class="button">Settings</button></a> <br><br>
